@@ -1,0 +1,50 @@
+/*selescteur CSS*/
+/* slecteur generaux body et p */
+
+body {
+  background-color: rgb(124, 224, 107);
+}
+
+p {
+  background-color: aqua;
+}
+/* selecteur ciblés 1er enfant de section et dernier */
+
+section > p:first-child {
+  background-color: blueviolet;
+}
+
+section > p:last-child {
+  background-color: rgb(255, 0, 0);
+}
+
+/* element cibler a changer tu choisi*/
+section > p:nth-child(2) {
+  background-color: brown;
+}
+
+/*Odd ou even pair et impair*/
+
+section > p:nth-child(odd) {
+  background-color: coral;
+}
+
+/* prioriter a la derniere commande lu aka la derniere */
+/* la virgule permet de mettre plus d'entrer */
+h1,
+p {
+  color: gold;
+}
+
+/* ID et Class */
+
+#section {
+  background-color: rgb(130, 34, 139);
+  height: 100px;
+}
+
+.rouge {
+  color: rgb(2, 2, 255);
+  background-color: aqua;
+  /* la classe n'a pas la prio elle revient toujours a nth-child (odd) */
+}
