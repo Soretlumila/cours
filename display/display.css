@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* span c d type inline mais la il est de type block */
+#block{
+    display: block;
+}
+
+/* de base c de type inline mais la c de type block */
+.inline-div{
+    display: inline;
+}
+
+/* div de type block seront changer en type inline mais ^pourront toujours etre changer de taille et largeur  */
+.inline-block-div{
+    display: inline-block;
+    width: 33%;
+}
+
+/* Flex */
+#Flex{
+    display: flex;/*  proprieter flex */
+    flex-direction: row-reverse; /*  proprieter qui defini comment il seront placer */
+    
+    justify-content: left;
+
+}

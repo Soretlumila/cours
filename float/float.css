@@ -1,0 +1,34 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* margin = espacement exterieur
+padding = espacement interieur
+*/
+
+/* conteneur principal */
+.containeur {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* colone principale */
+.main {
+  width: 70%;
+  float: left;
+  background-color: aquamarine;
+ margin: 0px; /* peut mettre 4x 00px dans l'ordrre d'une montre pour haut droite bas gauche */
+}
+
+/* barre latéérale flottante */
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: crimson;
+}
+/* 30% car il ya 70% en haut dans le conteneur princiale think louis think */
+.clear{clear: 
+    both;}
+    
+    body{background: #0e081a;
+background: radial-gradient(circle, rgba(14, 8, 26, 0.99) 0%, rgba(253, 29, 29, 1) 87%, rgba(31, 3, 3, 1) 100%);}
